@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  19 JAN 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  19 JAN 2024 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -48,26 +48,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
- [1
 
-{C:/Users/janku/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (EVA 17.01.2024.aux)
+Overfull \hbox (30.10675pt too wide) in paragraph at lines 14--15
+[]\OT1/cmr/m/n/12 Wahrung des Welt-friedens, der In-ter-na-tionalen Sicher-heit und Un-terdr^^?uckung
+ []
+
+[1
+
+{C:/Users/janku/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (8.50836pt too wide) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/12 Alle in-ter-na-tionalen Stre-it-igkeiten wer-den auf friedlichem Wege beigelegt. 
+ []
+
+
+Overfull \hbox (24.04015pt too wide) in paragraph at lines 30--32
+[]\OT1/cmr/m/n/12 Handlungsf^^?ahigkeiten der Vere-in-ten Na-tio-nen beschr^^?anken sich auf friedliche
+ []
+
+[2] (EVA 17.01.2024.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 448 strings out of 474495
- 8922 string characters out of 5743936
- 1926460 words of memory out of 5000000
- 22801 multiletter control sequences out of 15000+600000
- 560492 words of font info for 44 fonts, out of 8000000 for 9000
+ 458 strings out of 474495
+ 9102 string characters out of 5743936
+ 1929460 words of memory out of 5000000
+ 22810 multiletter control sequences out of 15000+600000
+ 560829 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,50p,198b,197s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "EVA 17.01.2024.pdf" (1 page, 33527 bytes).
+ 35i,6n,50p,245b,197s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\janku\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "EVA 17.01.2024.pdf" (2 pages, 51126 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

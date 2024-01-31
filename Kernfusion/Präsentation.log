@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  31 JAN 2024 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  31 JAN 2024 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,10 +581,10 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 6.
+(hyperref)                removing `\color' on input line 8.
 
 (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty) (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemestructure.sty)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 20.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 22.
  (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count350
@@ -592,24 +592,24 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 ) (Präsentation.aux)
 \openout1 = `Präsentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -664,7 +664,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 22.
  (Präsentation.out) (Präsentation.out)
 \@outlinefile=\write5
 \openout5 = `Präsentation.out'.
@@ -684,71 +684,95 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 20.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 22.
  (Präsentation.nav)
 <background.png, id=12, 1421.31pt x 800.23969pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 25.
+Package pdftex.def Info: background.png  used on input line 27.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [1
 
 {C:/Users/janku/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./background.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
  (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (D:\Users\janku\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 38.
+Package pdftex.def Info: background.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [2
 
 ]
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 50.
+Package pdftex.def Info: background.png  used on input line 53.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [3
 
 ]
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 62.
+Package pdftex.def Info: background.png  used on input line 66.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [4
 
 ]
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 73.
+Package pdftex.def Info: background.png  used on input line 78.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [5
 
 ]
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 98.
+Package pdftex.def Info: background.png  used on input line 107.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [6
 
 ]
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 146.
+Package pdftex.def Info: background.png  used on input line 164.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [7
 
 ]
+<Bindungsenergie.png, id=58, 422.32782pt x 472.01344pt>
+File: Bindungsenergie.png Graphic file (type png)
+<use Bindungsenergie.png>
+Package pdftex.def Info: Bindungsenergie.png  used on input line 184.
+(pdftex.def)             Requested size: 139.4179pt x 155.82253pt.
+<Fusionsleistungsdichte.png, id=59, 823.57687pt x 508.90125pt>
+File: Fusionsleistungsdichte.png Graphic file (type png)
+<use Fusionsleistungsdichte.png>
+Package pdftex.def Info: Fusionsleistungsdichte.png  used on input line 184.
+(pdftex.def)             Requested size: 199.1693pt x 123.07062pt.
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 156.
+Package pdftex.def Info: background.png  used on input line 184.
 (pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
  [8
+
+ <./Bindungsenergie.png> <./Fusionsleistungsdichte.png>]
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png  used on input line 204.
+(pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
+ [9
+
+]
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png  used on input line 217.
+(pdftex.def)             Requested size: 455.24055pt x 256.06972pt.
+ [10
 
 ]
 \tf@nav=\write6
@@ -769,17 +793,17 @@ Package rerunfilecheck Info: File `Präsentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25219 strings out of 474495
- 535876 string characters out of 5743936
- 1935460 words of memory out of 5000000
- 47022 multiletter control sequences out of 15000+600000
+ 25245 strings out of 474495
+ 536467 string characters out of 5743936
+ 1938460 words of memory out of 5000000
+ 47044 multiletter control sequences out of 15000+600000
  562155 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,123p,434b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Präsentation.pdf (8 pages, 2055105 bytes).
+<D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Präsentation.pdf (10 pages, 2658418 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

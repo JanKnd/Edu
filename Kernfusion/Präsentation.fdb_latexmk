@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706690608 "d:/Schule/Edu/Kernfusion/Präsentation.tex" "Präsentation.pdf" "Präsentation" 1706690613 0
+["pdflatex"] 1706728666 "d:/Schule/Edu/Kernfusion/Präsentation.tex" "Präsentation.pdf" "Präsentation" 1706728670 0
+  "Bindungsenergie.png" 1706544156 194056 40f5aa746a2d02ab77f54f32496bf0bb ""
   "C:/Users/janku/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706690485 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/janku/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1704464844 24224029 1a7ee1472169ae22362b5dde85aab34b ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -16,6 +17,7 @@
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss12.tfm" 1136765053 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -187,12 +189,13 @@
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/Users/janku/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Präsentation.aux" 1706690612 1463 6bec2ce22dafd22d70eecba9d3a39594 "pdflatex"
-  "Präsentation.nav" 1706690612 923 02772eacdfe77d67b79e45a640fd18ab "pdflatex"
-  "Präsentation.out" 1706690611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Präsentation.tex" 1706690607 3795 c21bef71474ed90c1acbe688cd06fe14 ""
+  "Fusionsleistungsdichte.png" 1706544340 452829 53ab999c1de0321c10bbb5cf5353f485 ""
+  "Präsentation.aux" 1706728670 1722 20e91bfaba50c3806d05ddd6b6b8b67e "pdflatex"
+  "Präsentation.nav" 1706728670 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "Präsentation.out" 1706728668 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Präsentation.tex" 1706728665 6745 051f49f25ec9ea38fab78e87b8e52bb5 ""
   "background.png" 1706638886 2104646 3ef635268601679fe59c41ba51e03106 ""
-  "d:/Schule/Edu/Kernfusion/Präsentation.tex" 1706690607 3795 c21bef71474ed90c1acbe688cd06fe14 ""
+  "d:/Schule/Edu/Kernfusion/Präsentation.tex" 1706728665 6745 051f49f25ec9ea38fab78e87b8e52bb5 ""
   (generated)
   "Präsentation.aux"
   "Präsentation.log"

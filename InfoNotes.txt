@@ -1,0 +1,5 @@
+Stock/Crypto data service:
+@inject IStockDataService IStockDataService
+Services/Interfaces
+
+/Models/Entry Types

@@ -3,3 +3,12 @@ Stock/Crypto data service:
 Services/Interfaces
 
 /Models/Entry Types
+
+
+
+TODO:
+-Nuget ApexCarts Import
+-Indicators:
+  - Volume
+  - Moving Average (evtl. Exponential Moving Average)
+  - RIS

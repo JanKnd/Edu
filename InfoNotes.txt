@@ -1,0 +1,18 @@
+Stock/Crypto data service:
+@inject IStockDataService IStockDataService
+Services/Interfaces
+
+/Models/Entry Types
+
+
+
+TODO:
+-Nuget ApexCarts Import
+-Indicators:
+  - Volume
+  - Moving Average (evtl. Exponential Moving Average)
+  - RIS
+
+
+Wifi-Passwords:
+for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | findstr -i -v echo | netsh wlan show profiles %j key=clear

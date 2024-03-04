@@ -1,0 +1,110 @@
+
+\documentclass{article}
+\usepackage{amssymb}
+\title{Zusammengesetzte Funktionen}
+\author{Jan Kunde}
+\date{}
+\begin{document}
+\maketitle
+\begin{center}
+    Im folgenden gilt \begin{math} {\displaystyle x \in \mathbb{R} \; \forall f(x)} \end{math}
+\end{center}
+\raggedright
+    \section*{Summenfunktionen:}
+        Wenn: \break
+        \begin{math}
+                {\displaystyle f(x) = u(x) + v(x)}
+        \end{math}
+
+        Dann gilt:\break
+            \begin{math}
+                 {\displaystyle f'(x) = u'(x) + v'(x)}
+            \end{math}
+        
+
+        \subsubsection*{Beispiel:}
+            \begin{math}
+                {\displaystyle f(x) = x^3 + ln(x)} \break\break
+                {\displaystyle f'(x) = 3x^2+\frac{1}{x}}
+            \end{math}
+
+    \section*{Differenzfunktionen:}
+    Wenn: \break
+    \begin{math}
+            {\displaystyle f(x) = u(x) - v(x)}
+    \end{math}
+
+    Dann gilt:\break
+        \begin{math}
+            {\displaystyle f'(x) = u'(x) - v'(x)}
+        \end{math}
+    
+
+    \subsubsection*{Beispiel:}
+        \begin{math}
+            {\displaystyle f(x) = x^3 - ln(x)} \break\break
+            {\displaystyle f'(x) = 3x^2 - \frac{1}{x}}
+        \end{math}
+
+    \section*{Produktfunktionen:}
+    Wenn: \break
+    \begin{math}
+            {\displaystyle f(x) = u(x) \cdot v(x)}
+    \end{math}
+
+    Dann gilt:\break
+        \begin{math}
+            {\displaystyle f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)}
+        \end{math}
+
+    \subsubsection*{Beispiel:}
+    \begin{math}
+        {\displaystyle f(x) = e^x \cdot x^3} \break\break
+        {\displaystyle f'(x) = e^x \cdot x^3 + e^x \cdot 3x^2 = e^x(x^3+3x^2)}
+    \end{math}
+
+    \section*{Gebrochenrationale Funktionen:}
+    Wenn: \break
+    \begin{math}
+            {\displaystyle f(x) = \frac{u(x)}{v(x)}}
+    \end{math}
+    
+    Dann gilt: \break
+    \begin{math}
+        {\displaystyle f'(x) = \frac{v(x)\cdot u'(x) - v'(x) \cdot u(x)}{v(x)^2}}
+    \end{math}
+
+    Alternativ lässt sich eine gebrochenrationale Funktion \begin{math}
+        {\displaystyle f(x) = \frac{u(x)}{v(x)}}
+    \end{math} zu \begin{math}
+        {\displaystyle f(x) = u(x) \cdot v(x)^{-1} }
+    \end{math}
+    umformen und mit Produkt- und Kettenregel ableiten.
+    \subsubsection*{Beispiel:}
+    \begin{math}
+        {\displaystyle f(x) = \frac{3x^4}{4x+3}}\break\break
+        {\displaystyle f'(x) = \frac{4\cdot 3x^4 - (4x+3) \cdot 12x^3}{(4x+3)^2} = \frac{36x^3\cdot (x+1)}{(4x+3)^2}}
+    \end{math}
+
+    \section*{Verkettete Funktionen:}
+    Wenn: \break
+    \begin{math}
+            {\displaystyle f(x) = (u \circ v)(x) = u(v(x))}
+    \end{math}
+
+    Dann gilt:\break
+        \begin{math}
+            {\displaystyle f'(x) = v'(x) \cdot u'(v(x))}
+        \end{math}
+    
+
+    
+    \subsubsection*{Beispiel:}
+        \begin{math}
+            {\displaystyle f(x) = e^{3x^2}} \break\break
+            {\displaystyle f'(x) = 6x \cdot e^{3x^2}}
+        \end{math}
+    
+
+
+\end{document}

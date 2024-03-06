@@ -7,104 +7,96 @@
 \begin{document}
 \maketitle
 \begin{center}
-    Im folgenden gilt \begin{math} {\displaystyle x \in \mathbb{R} \; \forall f(x)} \end{math}
+    Im folgenden gilt $ { x \in \mathbb{R} \; \forall f(x)} $
 \end{center}
 \raggedright
-    \section*{Summenfunktionen:}
+\section*{Arten zusammengetzter Funktionen und ihre Ableitungen}
+    \subsection*{Summenfunktionen}
         Wenn: \break
-        \begin{math}
-                {\displaystyle f(x) = u(x) + v(x)}
-        \end{math}
-
+        $f(x) = u(x) + v(x)$
+        \break
         Dann gilt:\break
-            \begin{math}
-                 {\displaystyle f'(x) = u'(x) + v'(x)}
-            \end{math}
-        
+        $f'(x) = u'(x) + v'(x)$
+        \break \break        
+        Beispiel: \break \break
+        $f(x) = x^3 + ln(x) \break f'(x) = 3x^2+\frac{1}{x}$
 
-        \subsubsection*{Beispiel:}
-            \begin{math}
-                {\displaystyle f(x) = x^3 + ln(x)} \break\break
-                {\displaystyle f'(x) = 3x^2+\frac{1}{x}}
-            \end{math}
-
-    \section*{Differenzfunktionen:}
+    \subsection*{Differenzfunktionen}
     Wenn: \break
-    \begin{math}
-            {\displaystyle f(x) = u(x) - v(x)}
-    \end{math}
-
+    $f(x) = u(x) - v(x)$
+    \break
     Dann gilt:\break
-        \begin{math}
-            {\displaystyle f'(x) = u'(x) - v'(x)}
-        \end{math}
+    $f'(x) = u'(x) - v'(x)$
+    \break \break
+    Beispiel: \break \break
+    $f(x) = x^3 - ln(x) \break f'(x) = 3x^2 - \frac{1}{x}$
+
+    \pagebreak
+    
+    \subsection*{Produktfunktionen}
+    Wenn: \break
+    $f(x) = u(x) \cdot v(x)$
+    \break
+    Dann gilt:\break
+    $f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)$
+    \break \break
+    Beispiel: \break \break
+    $f(x) = e^x \cdot x^3 \break
+    f'(x) = e^x \cdot x^3 + e^x \cdot 3x^2 = e^x(x^3+3x^2)$
     
 
-    \subsubsection*{Beispiel:}
-        \begin{math}
-            {\displaystyle f(x) = x^3 - ln(x)} \break\break
-            {\displaystyle f'(x) = 3x^2 - \frac{1}{x}}
-        \end{math}
 
-    \section*{Produktfunktionen:}
+    \subsection*{Gebrochenrationale Funktionen}
     Wenn: \break
-    \begin{math}
-            {\displaystyle f(x) = u(x) \cdot v(x)}
-    \end{math}
-
-    Dann gilt:\break
-        \begin{math}
-            {\displaystyle f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)}
-        \end{math}
-
-    \subsubsection*{Beispiel:}
-    \begin{math}
-        {\displaystyle f(x) = e^x \cdot x^3} \break\break
-        {\displaystyle f'(x) = e^x \cdot x^3 + e^x \cdot 3x^2 = e^x(x^3+3x^2)}
-    \end{math}
-
-    \section*{Gebrochenrationale Funktionen:}
-    Wenn: \break
-    \begin{math}
-            {\displaystyle f(x) = \frac{u(x)}{v(x)}}
-    \end{math}
-    
+    $f(x) = \frac{u(x)}{v(x)}$
+    \break
     Dann gilt: \break
-    \begin{math}
-        {\displaystyle f'(x) = \frac{v(x)\cdot u'(x) - v'(x) \cdot u(x)}{v(x)^2}}
-    \end{math}
-
-    Alternativ lässt sich eine gebrochenrationale Funktion \begin{math}
-        {\displaystyle f(x) = \frac{u(x)}{v(x)}}
-    \end{math} zu \begin{math}
-        {\displaystyle f(x) = u(x) \cdot v(x)^{-1} }
-    \end{math}
+    $f'(x) = \frac{v(x)\cdot u'(x) - v'(x) \cdot u(x)}{v(x)^2}$
+    Alternativ lässt sich eine gebrochenrationale Funktion 
+    $f(x) = \frac{u(x)}{v(x)}$ zu $f(x) = u(x) \cdot v(x)^{-1}$
     umformen und mit Produkt- und Kettenregel ableiten.
-    \subsubsection*{Beispiel:}
-    \begin{math}
-        {\displaystyle f(x) = \frac{3x^4}{4x+3}}\break\break
-        {\displaystyle f'(x) = \frac{4\cdot 3x^4 - (4x+3) \cdot 12x^3}{(4x+3)^2} = \frac{36x^3\cdot (x+1)}{(4x+3)^2}}
-    \end{math}
+    \break \break
+    Beispiel: \break \break
+    $f(x) = \frac{3x^4}{4x+3}\break f'(x) = \frac{4\cdot 3x^4 - (4x+3) \cdot 12x^3}{(4x+3)^2} = \frac{36x^3\cdot (x+1)}{(4x+3)^2}$
 
-    \section*{Verkettete Funktionen:}
+    \subsection*{Verkettete Funktionen}
     Wenn: \break
-    \begin{math}
-            {\displaystyle f(x) = (u \circ v)(x) = u(v(x))}
-    \end{math}
-
+    $f(x) = (u \circ v)(x) = u(v(x))$
+    \break
     Dann gilt:\break
-        \begin{math}
-            {\displaystyle f'(x) = v'(x) \cdot u'(v(x))}
-        \end{math}
-    
+    $f'(x) = v'(x) \cdot u'(v(x))$
+    \break \break
+    Beispiel: \break \break
+        $f(x) = e^{3x^2} \break f'(x) = 6x \cdot e^{3x^2}$
 
-    
-    \subsubsection*{Beispiel:}
-        \begin{math}
-            {\displaystyle f(x) = e^{3x^2}} \break\break
-            {\displaystyle f'(x) = 6x \cdot e^{3x^2}}
-        \end{math}
-    
+    \pagebreak
 
+\section*{Untersuchung zusammengesetzte Funktionen}
+\subsection*{Bestimmung von Definitionsmengen}
+Außer bei gebrochenrationalen Funktionen und Funktionen die als Term einen $ln$ oder $tan$
+enthalten ist die Definitionsmenge aller abiturrelevanten Funktionen: $D = \mathbb{R}$
+    \subsubsection*{Definitionsmengen gebrochenrationaler Funktionen}
+    Gebrochenrationale Funktionen weisen Definitionslücke an den Nullstellen des Nenners auf.
+    \break \break
+    Beispiel: \break \break
+    $f(x) = \frac{3x^5+2x}{x^2-3} \break \break
+    x^2-3 = 0 \quad |+3 \break
+    x^2 = 3 \break
+    x_{1,2} = \pm\sqrt{3} \break \break
+    D = \mathbb{R} \setminus \{ -\sqrt{3},\sqrt{3} \}
+    $
 
-\end{document}
+    \subsection*{Definitionsmengen bei ln-Funktionen}
+    Der natürliche Logarithmus ist nur für Eingabewerte größer als Null definitiert.
+    Besteht eine Funktion aus einer Verkettung aus natürlichem Logarithmus und einer weiteren Funktion,
+    umfasst die Definitionsmenge nur die X-Werte, für die der innere Teil der Funktion größere Werte als Null annimmt.
+    Zur Bestimmung der Definitionsmenge muss also die Ungleichung $v(x) > 0$ gelöst werden, wobei $v(x)$ der innere Teil der zusammengesetzten ln-Funktion ist.
+    \break \break
+    Beispiel:\break \break
+    $
+    f(x) = ln(x+3) \break \break
+    x+3 > 0 \quad |-3 \break
+    x > -3 \break \break
+    D = \{x \in \mathbb{R}: x > -3\}
+    $
+    \end{document}

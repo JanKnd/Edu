@@ -92,11 +92,35 @@ enthalten ist die Definitionsmenge aller abiturrelevanten Funktionen: $D = \math
     umfasst die Definitionsmenge nur die X-Werte, für die der innere Teil der Funktion größere Werte als Null annimmt.
     Zur Bestimmung der Definitionsmenge muss also die Ungleichung $v(x) > 0$ gelöst werden, wobei $v(x)$ der innere Teil der zusammengesetzten ln-Funktion ist.
     \break \break
-    Beispiel:\break \break
+    Beispiel 1:\break \break
     $
     f(x) = ln(x+3) \break \break
     x+3 > 0 \quad |-3 \break
     x > -3 \break \break
     D = \{x \in \mathbb{R}: x > -3\}
     $
+    \pagebreak
+
+    Beispiel 2:\break \break
+    $
+    f(x) = ln(x^2-6) \break \break
+    x^2-6 = 0 \quad |+6 \break
+    x^2 = 6 \quad |\sqrt{6} \break
+    x_{1,2} = \pm \sqrt{6} \break \break
+    $
+    da $f(0) = -6$, und somit $<0$ ist, ist die Definitionsmenge $D =  \mathbb{R} \setminus \lbrack -\sqrt{6};\sqrt{6} \rbrack $.
+    
+    \subsection*{Nullstellen bei zusammengesetzten Funktionen}
+
+    \subsubsection*{Nullstellen bei Produktfunktionen}
+    Wenn $f(x) = u(x) \cdot v(x)$ ist, ist $f(x) = 0$ dann gegeben, wenn mindestens eine der Beiden Funktion $u(x)$ und $v(x)$ gleich Null ist.
+    Daher können zur Findung der Nullenstellen $u(x)$ und $v(x)$ seperat untersucht werden.
+
+    \subsubsection*{Nullstellen bei gebrochenrationalen Funktionen}
+    Wenn $f(x) = \frac{u(x)}{v(x)}$ ist, ist $f(x) = 0$ dann gegeben, wenn $u(x) = 0$, also die im Zähler stehende Funktion gleich Null ist.
+
+    \subsubsection*{Nullstellen bei verketteten Funktionen}
+    Wenn $f(x) = (u \circ v)(x)$ ist, ist $f(x) = 0$ dann gegeben wenn $v(x)$ einen Wert annimmt, für den $u(x)$ den Wert Null annimmt.
+    Ist die äußere Funktion, in diesem Fall $u(x)$ eine Funktion, die für alle $x \in \mathbb{R}$ keine Nullstellen besitzt \break (z.B. $e^x$), besitzt $f(x)$ keine Nullenstellen.
+
     \end{document}

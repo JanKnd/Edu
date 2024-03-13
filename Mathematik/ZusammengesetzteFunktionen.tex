@@ -6,9 +6,6 @@
 \date{}
 \begin{document}
 \maketitle
-\begin{center}
-    Im folgenden gilt $ { x \in \mathbb{R} \; \forall f(x)} $
-\end{center}
 \raggedright
 \section*{Arten zusammengetzter Funktionen und ihre Ableitungen}
     \subsection*{Summen}
@@ -37,7 +34,7 @@
     Wenn: \break
     $f(x) = u(x) \cdot v(x)$
     \break
-    Dann gilt:\break
+    Dann gilt die Produktregel:\break
     $f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)$
     \break \break
     Beispiel: \break \break
@@ -50,30 +47,34 @@
     Wenn: \break
     $f(x) = \frac{u(x)}{v(x)}$
     \break
-    Dann gilt: \break
-    $f'(x) = \frac{v(x)\cdot u'(x) - v'(x) \cdot u(x)}{v(x)^2}$
+    Dann gilt die Quotientenregel: \break
+    $f'(x) = \frac{u'(x)\cdot v(x) - u(x) \cdot v'(x)}{(v(x))^2}$
     Alternativ lässt sich eine gebrochenrationale Funktion 
     $f(x) = \frac{u(x)}{v(x)}$ zu $f(x) = u(x) \cdot v(x)^{-1}$
-    umformen und mit Produkt- und Kettenregel ableiten.
+    umformen und mit der Produkt- und Kettenregel ableiten.
     \break \break
     Beispiel: \break \break
-    $f(x) = \frac{3x^4}{4x+3}\break f'(x) = \frac{4\cdot 3x^4 - (4x+3) \cdot 12x^3}{(4x+3)^2} = \frac{36x^3\cdot (x+1)}{(4x+3)^2}$
+    $f(x) = \frac{3x^4}{4x+3}\break 
+    f'(x) = \frac{12x^3 \cdot (4x+3) - 4 \cdot 3x^4}{(4x+3)^2} \break
+    \quad = \frac{12x^3 \cdot (4x+3-x)}{(4x+3)^2}\break
+    \quad = \frac{12x^3 \cdot (3x+3)}{(4x+3)^2}\break
+    \quad = \frac{36x^3 \cdot (x+1)}{(4x+3)^2}$
 
     \subsection*{Verkettete Funktionen}
     Wenn: \break
     $f(x) = (u \circ v)(x) = u(v(x))$
     \break
-    Dann gilt:\break
+    Dann gilt die Kettenregel:\break
     $f'(x) = v'(x) \cdot u'(v(x))$
     \break \break
     Beispiel: \break \break
-        $f(x) = e^{3x^2} \break f'(x) = 6x \cdot e^{3x^2}$
+        $f(x) = e^{3x^2} \quad (u(x) = e^x;\: v(x) = 3x^2)\break f'(x) = 6x \cdot e^{3x^2}$
 
     \pagebreak
 
-\section*{Untersuchung zusammengesetzte Funktionen}
+\section*{Untersuchung zusammengesetzter Funktionen}
 \subsection*{Bestimmung von Definitionsmengen}
-Außer bei gebrochenrationalen Funktionen und Funktionen die als Term einen $ln$ oder $tan$
+Außer bei gebrochenrationalen Funktionen und Funktionen die als Term einen $ln$ oder eine Wurzel
 enthalten ist die Definitionsmenge aller abiturrelevanten Funktionen: $D = \mathbb{R}$
     \subsubsection*{Definitionsmengen gebrochenrationaler Funktionen}
     Gebrochenrationale Funktionen weisen Definitionslücke an den Nullstellen des Nenners auf.
@@ -97,7 +98,7 @@ enthalten ist die Definitionsmenge aller abiturrelevanten Funktionen: $D = \math
     f(x) = ln(x+3) \break \break
     x+3 > 0 \quad |-3 \break
     x > -3 \break \break
-    D = \{x \in \mathbb{R}: x > -3\}
+    D = \{x \in \mathbb{R}| x > -3\}
     $
     \pagebreak
 
@@ -108,8 +109,19 @@ enthalten ist die Definitionsmenge aller abiturrelevanten Funktionen: $D = \math
     x^2 = 6 \quad |\sqrt{6} \break
     x_{1,2} = \pm \sqrt{6} \break \break
     $
-    da $f(0) = -6$, und somit $<0$ ist, ist die Definitionsmenge $D =  \mathbb{R} \setminus \lbrack -\sqrt{6};\sqrt{6} \rbrack $.
+    da $x^2-6$ im Interval $\lbrack -\sqrt{6};\sqrt{6} \rbrack \leq 0$ ist, ist die Definitionsmenge $D =  \mathbb{R} \setminus \lbrack -\sqrt{6};\sqrt{6} \rbrack $.
     
+    \subsection*{Definitionsmengen bei Wurzelfunktionen}
+    Bei Wurzelfunktionen in der Form $f(x) = \sqrt[n]{x}$ ist die Definitionsmenge für alle ungeraden $n$: $D = \mathbb{R}$. Für alle geraden $n$ muss der Wert unter der Wurzel $\geq 0$ sein.
+    \break \break
+    Beispiel: \break\break
+    $
+    f(x) = \sqrt{x-4} \break
+    0 \leq x-4 \quad |+4 \break
+    4 \leq x \break \break
+    D = \{x \in \mathbb{R}|x \geq 4\}
+    $
+
     \subsection*{Nullstellen bei zusammengesetzten Funktionen}
 
     \subsubsection*{Nullstellen bei Produktfunktionen}

@@ -4,14 +4,16 @@ Services/Interfaces
 
 /Models/Entry Types
 
-
+StockColor: #8c00ff
+CrytoColor: #00feff
 
 TODO:
--Nuget ApexCarts Import
 -Indicators:
-  - Volume
-  - Moving Average (evtl. Exponential Moving Average)
   - RIS
+  - change timeframe/barwith to dropdown
+  - make dropdown dynamic
+  - change indicator choise to toggle buttons
+  - add possibility to change between 
 
 
 Change Background of single page:
